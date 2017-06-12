@@ -4,7 +4,7 @@ template.description: "Diese Toolchain umfasst Tools zur Entwicklung und Bereits
 deploy.title: "Microservices-Bereitstellungsphase"
 deploy.longDescription: "Mit Delivery Pipeline wird die kontinuierliche Bereitstellung automatisiert."
 deploy.form.description: "Beschreibung"
-headerSVG.issueTracker: "PROBLEMTRACKER"
+headerSVG.issueTracker: "PROBEMTRACKER"
 headerSVG.gitHub1: "GitHub"
 headerSVG.think: "NACHDENKEN"
 headerSVG.code: "CODIEREN"
