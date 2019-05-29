@@ -6,7 +6,7 @@ deploy.longDescription: "Delivery Pipeline は、継続的デプロイメント�
 deploy.form.description: "説明"
 deploy.apiKeyTitle: "IBM Cloud API キー"
 deploy.apiKeyDescription: "IBM Cloud ランタイムにアクセスするには API キーが必要です。 API キーがない場合は、「作成」ボタンをクリックしてください。 API キーは、「ibmcloud iam api-key-create」やコンソール (https://cloud.ibm.com/iam#/apikeys) を使用しても取得できます。"
-headerSVG.issueTracker: "Issue トラッカー"
+headerSVG.issueTracker: "問題トラッカー"
 headerSVG.gitHub1: "GitHub"
 headerSVG.think: "思考"
 headerSVG.code: "コード"
