@@ -6,7 +6,7 @@ deploy.longDescription: "Mit Delivery Pipeline wird die kontinuierliche Bereitst
 deploy.form.description: "Beschreibung"
 deploy.apiKeyTitle: "IBM Cloud-API-Schlüssel"
 deploy.apiKeyDescription: "Für den Zugriff auf IBM Cloud Runtime ist ein API-Schlüssel erforderlich. Wenn Sie keinen besitzen, können Sie auf die Schaltfläche 'Erstellen' klicken. Sie können auch mit 'ibmcloud iam api-key-create' oder über die Konsole unter https://cloud.ibm.com/iam#/apikeys einen API-Schlüssel anfordern"
-headerSVG.issueTracker: "PROBLEMTRACKER"
+headerSVG.issueTracker: "ISSUE-TRACKER"
 headerSVG.gitHub1: "GitHub"
 headerSVG.think: "NACHDENKEN"
 headerSVG.code: "CODIEREN"
