@@ -1,13 +1,13 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
-     "messages": {
-       "$i18n": "locales.yml"
+    "messages": {
+        "$i18n": "locales.yml"
     },
-     "title": {
-      "$ref": "#/messages/deploy.title"
+    "title": {
+        "$ref": "#/messages/deploy.title"
     },
-     "longDescription": {
-      "$ref": "#/messages/deploy.longDescription"
+    "longDescription": {
+        "$ref": "#/messages/deploy.longDescription"
     },
     "type": "object",
     "properties": {
@@ -18,22 +18,24 @@
             "description": {
                 "$ref": "#/messages/deploy.apiKeyDescription"
             },
-            "type": "string"
+            "type": "string",
+            "validator": {
+                "v-type": "api-key"
+            }
         }
     },
     "required": ["api-key"],
-    "form": [
-	{
+    "form": [{
             "type": "validator",
-            "url": "/devops/setup/bm-helper/helper.html"
+            "url": "/devops/setup/bm-helper/validator-v1.html"
         },
         {
-	        "type": "password",
-	        "readonly": false,
-	        "title": {
-                   "$ref": "#/messages/deploy.apiKeyTitle"
-                },
-	        "key": "api-key"
+            "type": "password",
+            "readonly": false,
+            "title": {
+                "$ref": "#/messages/deploy.apiKeyTitle"
+            },
+            "key": "api-key"
         },
         {
             "type": "text",
