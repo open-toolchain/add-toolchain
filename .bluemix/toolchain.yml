@@ -39,8 +39,6 @@ services:
           CF_API_URL: ''
           API_KEY: '{{form.pipeline.parameters.api-key}}'
         execute: false
-  webide:
-    service_id: orion
 form:
   pipeline:
     parameters:
